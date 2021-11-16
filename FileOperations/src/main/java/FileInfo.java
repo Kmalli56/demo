@@ -1,9 +1,13 @@
 import java.io.File;   
-
+/**
+ * 
+ * @author mounika.kuna
+ *
+ */
 public class FileInfo {  
     public static void main(String[] args) {  
         // Creating file object  
-        File f0 = new File("C:\\Users\\Mallikarjuna K M\\Documents\\Details.txt");  
+        File f0 = new File("C:\\Users\\mounika.kuna\\Documents\\Details.txt");  
         if (f0.exists()) {  
             // Getting file name  
             System.out.println("The name of the file is: " + f0.getName());  
